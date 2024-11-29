@@ -4,30 +4,93 @@ body {
     padding: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
+
 
 nav {
+    z-index: 1;
+    position: fixed;
+    background-color: orange;
+    padding: 20px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
     height: 60px;
     width: 100%;
     border-bottom: 2px solid black;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-header{
-    border-bottom: 2px solid black;
+
+.Medium {
+    margin-left: 150px;
 }
-.MMM{
+
+.fakelink {
+    margin-right: 20%;
+    justify-items: end;
+}
+
+.fakelink span {
+    margin: 20px;
+}
+
+.Buttongetstarted {
+    border-radius: 50px;
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+#navbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+}
+
+.MMM {
     display: flex;
+    justify-items: space-between;
+    background-color: orange;
+    padding-left: 18%;
+    height: 480px;
+    font-size: 25px;
+    border-bottom: 1px solid black;
     
 }
-.fakelink{
+.MMM > .Curiosita{
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: flex-start;
+width: 80%;
+}
+
+
+
+.Curiosita {
+    margin-left: 100px;
+}
+.Curiosita h1{
+    font-size: 80px;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+.Medium{
+    
+    display:flex;
+}
+.Medium, img{
+    border-radius: 50% 50% 50% 50%;
+    width: 30px;
+    height: 30px;
+}
+.contenitorecose{
     display: flex;
 }
-
-.link{
-    text-decoration: none;
+.immaginicontenitore{
+    display: flex;
 }
-
-
