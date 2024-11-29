@@ -157,6 +157,12 @@ header {
 .orari2{
     display: flex;
 }
+.immaginetta{
+    display: flex;
+}
+ .immagiegrande{
+    display: flex;
+ }
 .orari {
     display: flex;
     gap: 10px;
