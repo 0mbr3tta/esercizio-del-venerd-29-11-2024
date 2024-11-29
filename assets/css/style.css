@@ -114,33 +114,30 @@ header {
 .contenitorecose {
     display: flex;
     gap: 10px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ffffff;
     padding-bottom: 10px;
 }
 
 .numeri {
     display: flex;
     align-items: center;
-
-
     justify-content: center;
-
-
     width: 30px;
     height: 30px;
-
-
-    background-color: #f0f0f0;
-    border-radius: 50%;
+    background-color: #ffffff;
     font-weight: bold;
-    color: #333;
+    color: #7a7979;
 }
 
 .numeretti {
     margin: 0;
 }
 
+.immaginicontenitore{
+    display: flex;
+}
 .immaginicontenitore img {
+
     width: 50px;
     height: 50px;
     border-radius: 50%;
