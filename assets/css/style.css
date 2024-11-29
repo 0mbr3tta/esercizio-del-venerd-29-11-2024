@@ -90,7 +90,7 @@ header {
 }
 
 .trending {
-    border-bottom: 2px solid #7a7979;
+    border-bottom: 2px solid #E6E7E7;
     padding: 20px;
     background-color: #fff;
 }
@@ -121,7 +121,6 @@ header {
     display: flex;
     height: 200px;
     width: 400px;
-    
     gap: 10px;
     border-bottom: 1px solid #ffffff;
     padding-bottom: 10px;
@@ -138,6 +137,7 @@ header {
 }
 
 .numeretti {
+    color:#E6E7E7;
     font-size: 40px;
    
 }
@@ -199,13 +199,20 @@ header {
     margin-top: 5%;
     display: flex;
 }
+.account{
+    padding: 1%;
+   margin: 5% 5% 5% 0%;
+    height: 150px;
+    display: flex;
+}
 .contenitoreinfo{
     margin-right: 50px;
     margin-left:150px; ;
 }
 .informazioni{
+    align-content: space-between;
     width: 460px;
-    height: 100px;
+    height: 150px;
 }
 .imgprofilo{
     margin:5px 5px 7px 0px;
@@ -213,17 +220,16 @@ header {
     width: 20px;
     border-radius:50px 50px 50px 50px ;
 }
-.account{
-   margin: 5% 5% 5% 0%;
-    height: 200px;
-    display: flex;
-}
+
 .nomefoto{
     line-height: 1;
     align-items: center;
     display: flex;
 }
 .orari2{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
     display: flex;
 }
 .immaginetta{
@@ -234,7 +240,26 @@ header {
     margin-right: 2%;
 }
 .buttonaging{
-    background-color: #7a7979;
+    padding: 5px;
+    color:#757575;
+    background-color: #F2F3F3;
     border-radius: 40px;
-    border-color: none;
+    border: #F2F3F3;
+}
+.dabloccare{ 
+    width: 450px;
+}
+.bottoni{
+    margin: 1%;
+    padding:6px 10px;
+    background-color:#F2F3F3 ;
+    border-color:  #999;
+}
+.contenitorebottoni{
+   justify-content: space-around;
+    align-items: space-around;
+    border-bottom: 2px solid #999;;
+}
+.link{
+    line-height: 1.5;
 }
