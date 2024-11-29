@@ -21,6 +21,10 @@ nav {
 }
 
 .Medium {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
     margin-left: 150px;
 }
 
@@ -59,7 +63,7 @@ nav {
 
 }
 
-.MMM>.Curiosita {
+.MMM >.Curiosita {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -87,17 +91,7 @@ header {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.Medium {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
-}
 
-.Medium img {
-    width: 20px;
-    height: 20px;
-}
 
 .Medium p {
     font-weight: bold;
