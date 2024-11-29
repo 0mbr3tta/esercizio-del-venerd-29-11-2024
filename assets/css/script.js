@@ -20,3 +20,30 @@ style.backgroundColor = 'black';
 style.color = 'white';
     }
 });
+
+/*
+document.addEventListener('scroll', () => {
+    const nav = document.querySelector('nav');
+    const dabloccare = document.querySelector('.dabloccare');
+const dabloccareTop = dabloccare.getBoundingClientRect().top;
+    if (dabloccareTop <= nav.offsetHeight) {
+        dabloccare.
+classList.add('sticky');
+    }  
+else { dabloccare.
+classList.remove('sticky');
+}
+});*/
+
+document.addEventListener('scroll', () => {
+    const nav = document.querySelector('nav');
+    const dabloccare = document.querySelector('.dabloccare');
+    const navHeight = nav.offsetHeight;
+    const dabloccareTop = dabloccare.getBoundingClientRect().top;
+
+    if (dabloccareTop <= navHeight) {
+        dabloccare.classList.add('sticky');
+    } else if (window.scrollY < dabloccare.offsetTop - navHeight) {
+        dabloccare.classList.remove('sticky');
+    }
+});

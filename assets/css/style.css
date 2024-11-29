@@ -262,4 +262,33 @@ header {
 }
 .link{
     line-height: 1.5;
+}  
+.dabloccare {
+    background-color: #ffffff;
+    padding: 20px;
+    position: relative; 
+    z-index: 999;
+    transition: position 0.3s ease, top 0.3s ease;
 }
+.dabloccare.sticky {
+    position: fixed; 
+    top: 50px; 
+}
+        .contenitore {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .link {
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .link a {
+            color: #333;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+      
+
+
+
