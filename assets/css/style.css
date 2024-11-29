@@ -182,6 +182,9 @@ header {
 .Under{
     display: flex;
 }
+.account{
+    display: flex;
+}
 .nomefoto{
     display: flex;
 }
